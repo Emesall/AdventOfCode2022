@@ -51,8 +51,6 @@ public class Day21 {
 				number+=1;
 			}
 			
-			
-			System.out.println(number1 + " || " + number2);
 		}
 		part2=number;
 		System.out.println(part2);
