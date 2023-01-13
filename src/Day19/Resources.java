@@ -36,5 +36,10 @@ public class Resources {
 		clay -= blueprint.getClay();
 		obsidian -= blueprint.getObsidian();
 	}
+	
+	public Resources clone() {
+		Resources res=new Resources(ore, clay, obsidian);
+		return res;
+	}
 
 }
